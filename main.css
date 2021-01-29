@@ -1,0 +1,54 @@
+body {
+  color: #2d2926;
+  background-color: #872633;
+  text-align: center;
+  margin: 0;
+}
+
+h1 {
+  background-color: white;
+  width: 100%;
+}
+
+#petContainer {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-evenly;
+  margin: 20px;
+  padding-top: 100px;
+}
+
+.card {
+  width: 25%;
+  margin: 15px;
+  margin-top: 50px;
+  min-width: 300px;
+}
+
+img {
+  width: 90%;
+  border-radius: 50%;
+  border: 10px  #FFFFFF solid;
+  background-color:  #FFFFFF;
+}
+
+.card-content {
+  background-color: #FFFFFF;
+  /* box-shadow: 0 0 10px 1px black; */
+}
+
+h3 {
+  color: #8659B5;
+  background-color: #C7C9C7;
+  padding: 5px;
+}
+
+section {
+  display: flex;
+  justify-content: space-between;
+}
+
+section div {
+  width: 49%;
+  background-color: #C7C9C7;
+}
